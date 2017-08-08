@@ -1,0 +1,129 @@
+html{
+    background-color: transparent;
+}
+
+body{
+	height: 100%;
+}
+
+#car_list_unit {
+    margin-left: 35px;
+}
+
+#search_bar_span_container span{
+    margin-left: 30px;
+}
+
+#search_bar_span_container {
+    margin: 30px;
+}
+
+#car_list_unit tr th{
+    text-decoration: none;
+    padding: 5px;
+}
+
+#search_header_tr th {
+    text-align: center;
+}
+
+#test_drive_reg_car_table{
+    margin: 20px;
+}
+
+
+
+#mainWrapper {
+
+	height: 100%;
+	background-image: url("../background.jpg");
+	background-size: cover;
+	background-repeat:   no-repeat;
+	background-position: center center;
+
+);
+}
+
+#rememberme{
+    text-decoration-color: white;
+}
+
+.checkbox{
+    color:white;
+}
+
+.floatRight{
+	float:right;
+	margin-right: 18px;
+}
+
+.has-error{
+	color:red;
+}
+
+.generic-container {
+  position: relative;
+  margin: auto;
+  width:60%;
+
+  padding: 20px;
+  background-color: #EAE7E7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 30px black;
+}
+
+.custom-width {
+    width: 80px !important;
+}
+
+body, #mainWrapper, .form-control{
+	font-size:12px!important;
+
+}
+
+#car_list_container{
+    background-attachment: fixed;
+    background-image: url("../parking.jpg");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+#car_table tr{
+
+}
+
+#mainWrapper {
+	/*height: 720px; Without explicit px values, % in children's does not work*/
+	height: 100vh; /*with Viewport-Percentage, we can handles all devices screens  */
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.if-create-new-account-link a {
+    color: snow;
+
+}
+
+.login-container {
+    margin-top: 100px;
+    background-color: #ffffffaa;
+    width: 40%;
+    left: 30%;
+    position: absolute;
+}
+
+.login-card {
+    width: 80%;
+    margin: auto;
+}
+
+.login-form {
+    padding: 10%;
+}
+
+.authbar{
+	margin-bottom:15px;
+}
